@@ -26,8 +26,8 @@ class DynamicLabelsApp(App):
 
 
         for name in self.names:
-            label_widget = Label(text=name)
-            self.root.ids.labels.add_widget(label_widget)
+            widget_of_label = Label(text=name)
+            self.root.ids.labels.add_widget(widget_of_label)
 
 
 DynamicLabelsApp().run()
