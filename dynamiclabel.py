@@ -18,7 +18,7 @@ class DynamicLabelsApp(App):
 
 
         self.title = "Dynamic Labels"
-        self.root = Builder.load_file('dynamic_labels.kv')
+        self.root = Builder.load_file('dynamiclabel.kv')
         self.create_labels()
         return self.root
 
