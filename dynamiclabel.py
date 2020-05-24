@@ -12,7 +12,7 @@ class DynamicLabelsApp(App):
 
 
         super().__init__(**kwargs)
-        self.names = ["ok","anil","aaish"]
+        self.names = ["asmi","jay","aaish"]
 
     def build(self):
 
